@@ -1,6 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        Fila<String> o1 = new Fila<>();
+        Deque<String> o1 = new Deque<>();
 
         o1.inserirInicio("teste1");
         o1.inserirInicio("test2");
